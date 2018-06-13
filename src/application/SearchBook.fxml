@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SearchBookController">
+   <children>
+      <AnchorPane layoutX="40.0" layoutY="40.0" prefHeight="687.0" prefWidth="1050.0">
+         <children>
+            <RadioButton fx:id="titleB" layoutX="74.0" layoutY="183.0" mnemonicParsing="false" onAction="#handleActiveTitle" selected="true" text="Title / ISBN">
+               <toggleGroup>
+                  <ToggleGroup fx:id="search" />
+               </toggleGroup></RadioButton>
+            <RadioButton fx:id="AuthorB" layoutX="74.0" layoutY="273.0" mnemonicParsing="false" onAction="#handleActiveAuthor" text="Author" toggleGroup="$search" />
+            <RadioButton fx:id="CatB" layoutX="74.0" layoutY="356.0" mnemonicParsing="false" onAction="#handleActiveCat" text="Category" toggleGroup="$search" />
+            <RadioButton fx:id="PubB" layoutX="74.0" layoutY="441.0" mnemonicParsing="false" onAction="#handleActivePub" text="Publisher" toggleGroup="$search" />
+            <ComboBox fx:id="cat" disable="true" layoutX="281.0" layoutY="352.0" prefWidth="150.0" />
+            <TextField fx:id="title" layoutX="282.0" layoutY="179.0" />
+            <TextField fx:id="author" disable="true" layoutX="282.0" layoutY="269.0" />
+            <ComboBox fx:id="pub" disable="true" layoutX="281.0" layoutY="437.0" prefWidth="150.0" />
+            <Button layoutX="281.0" layoutY="577.0" mnemonicParsing="false" onAction="#handleButtonAction" text="search" />
+            <Button layoutX="74.0" layoutY="577.0" mnemonicParsing="false" onAction="#handleBack" text="back" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

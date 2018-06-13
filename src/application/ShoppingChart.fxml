@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ShoppingCartController">
+   <children>
+      <TableView fx:id="table" layoutX="24.0" layoutY="14.0" prefHeight="640.0" prefWidth="714.0" AnchorPane.bottomAnchor="63.0" AnchorPane.rightAnchor="347.0">
+         <columns>
+            <TableColumn fx:id="ISBN" prefWidth="75.0" text="ISBN" />
+            <TableColumn fx:id="title" prefWidth="75.0" text="Title" />
+            <TableColumn fx:id="year" prefWidth="75.0" text="Year" />
+            <TableColumn fx:id="price" prefWidth="75.0" text="Price" />
+            <TableColumn fx:id="copies" prefWidth="111.0" text="Copies" />
+            <TableColumn fx:id="pub" prefWidth="75.0" text="Publisher" />
+            <TableColumn fx:id="author" prefWidth="75.0" text="Author" />
+            <TableColumn fx:id="cat" prefWidth="75.0" text="Category" />
+            <TableColumn fx:id="delete" prefWidth="75.0" text="Delete" />
+         </columns>
+      </TableView>
+      <Button layoutX="24.0" layoutY="672.0" mnemonicParsing="false" onAction="#handleBack" text="back" />
+      <Label layoutX="837.0" layoutY="131.0" text="total price" />
+      <Label fx:id="totalPrice" layoutX="931.0" layoutY="131.0" prefHeight="21.0" prefWidth="100.0" />
+   </children>
+</AnchorPane>

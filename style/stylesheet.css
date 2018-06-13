@@ -1,0 +1,12 @@
+.button {
+	/*-fx-background-color:#ffb833;
+	-fx-background-radius: 30.0;
+	-fx-padding: 10.0 20.0 10.0 20.0;*/
+	-fx-border-color: transparent;
+    -fx-border-width: 0.0;
+    -fx-background-radius: 0.0;
+    -fx-background-color: transparent;
+    -fx-font-family:"Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 3.0em; /* 12 */
+    -fx-text-fill: #ffffff;
+}

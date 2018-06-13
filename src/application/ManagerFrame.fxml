@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="687.0" prefWidth="1050.0"
+	xmlns="http://javafx.com/javafx/8.0.141"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="application.ManagerFrameController">
+	<children>
+		<AnchorPane layoutX="10.0" layoutY="10.0"
+			prefHeight="687.0" prefWidth="1050.0" stylesheets="@application.css"
+			AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+			AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+			<children>
+				<!-- <AnchorPane layoutX="-314.0" layoutY="-258.0" -->
+				<!-- prefHeight="513.0" prefWidth="647.0" AnchorPane.bottomAnchor="0.0" -->
+				<!-- AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" -->
+				<!-- AnchorPane.topAnchor="0.0"> -->
+				<AnchorPane layoutX="-314.0" layoutY="-258.0"
+					prefHeight="513.0" prefWidth="647.0" AnchorPane.bottomAnchor="0.0"
+					AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+					AnchorPane.topAnchor="0.0">
+
+					<children>
+						<Label layoutX="974.0" layoutY="87.0" fx:id="usernameid"
+							text="username" />
+						<ToolBar layoutX="14.0" layoutY="122.0" prefHeight="40.0"
+							prefWidth="731.0">
+							<items>
+								<Button mnemonicParsing="false" onAction="#addBookAction"
+									text="Add Book" />
+								<Button mnemonicParsing="false" onAction="#addPublisher"
+									text="Add publisher" />
+								<Button mnemonicParsing="false" text="Modify Book" />
+								<Button mnemonicParsing="false" onAction="#orderAction"
+									text="Place Order" />
+								<Button mnemonicParsing="false" text="Promote Customer"
+									onAction="#promoteAction" />
+								<Button mnemonicParsing="false"
+									onAction="#statisticsAction" text="View Sales Report" />
+							</items>
+						</ToolBar>
+						<ToolBar layoutX="14.0" layoutY="75.0" prefHeight="40.0"
+							prefWidth="731.0">
+							<items>
+								<Button mnemonicParsing="false"
+									onAction="#updateAccountAction" text="Update Account" />
+								<!-- <Button mnemonicParsing="false" text="Search" /> -->
+								<Button mnemonicParsing="false"
+									onAction="#handleButtonActionSearch" text="Search" />
+<!-- 								<Button mnemonicParsing="false" -->
+<!-- 									onAction="#handleButtonShoppingCart" text="Shopping Cart" /> -->
+								<Button mnemonicParsing="false"
+									onAction="#showOrderAction" text="Show Orders" />
+								<Button mnemonicParsing="false"
+									onAction="#handleCheckOut" text="Check Out" />
+								<Button mnemonicParsing="false" onAction="#handleLogOut"
+									text="Log Out" />
+							</items>
+						</ToolBar>
+					</children>
+				</AnchorPane>
+			</children>
+		</AnchorPane>
+	</children>
+</AnchorPane>

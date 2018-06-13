@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141">
+   <children>
+      <TableView layoutX="13.0" layoutY="10.0" prefHeight="640.0" prefWidth="740.0" AnchorPane.bottomAnchor="77.0" AnchorPane.rightAnchor="369.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="isbn" />
+            <TableColumn prefWidth="75.0" text="title" />
+            <TableColumn prefWidth="75.0" text="year" />
+            <TableColumn prefWidth="75.0" text="price" />
+            <TableColumn prefWidth="111.0" text="no. ofcopies" />
+         </columns>
+      </TableView>
+      <CheckBox layoutX="693.0" layoutY="66.0" mnemonicParsing="false" />
+      <CheckBox layoutX="693.0" layoutY="110.0" mnemonicParsing="false" />
+      <CheckBox layoutX="693.0" layoutY="158.0" mnemonicParsing="false" />
+      <CheckBox layoutX="693.0" layoutY="202.0" mnemonicParsing="false" />
+      <CheckBox layoutX="693.0" layoutY="252.0" mnemonicParsing="false" />
+      <CheckBox layoutX="693.0" layoutY="296.0" mnemonicParsing="false" />
+      <CheckBox layoutX="693.0" layoutY="344.0" mnemonicParsing="false" />
+      <CheckBox layoutX="693.0" layoutY="388.0" mnemonicParsing="false" />
+      <CheckBox layoutX="693.0" layoutY="435.0" mnemonicParsing="false" />
+      <CheckBox layoutX="693.0" layoutY="479.0" mnemonicParsing="false" />
+      <CheckBox layoutX="693.0" layoutY="527.0" mnemonicParsing="false" />
+      <CheckBox layoutX="693.0" layoutY="571.0" mnemonicParsing="false" />
+      <Label layoutX="655.0" layoutY="14.0" prefHeight="21.0" prefWidth="154.0" text="delete" />
+      <Button layoutX="683.0" layoutY="672.0" mnemonicParsing="false" text="delete" />
+      <Button layoutX="24.0" layoutY="672.0" mnemonicParsing="false" text="back" />
+      <Button layoutX="872.0" layoutY="672.0" mnemonicParsing="false" text="next" />
+      <Label layoutX="837.0" layoutY="131.0" text="total price" />
+      <Label layoutX="931.0" layoutY="131.0" prefHeight="21.0" prefWidth="100.0" text="&quot;                    &quot;" />
+      <Button layoutX="840.0" layoutY="223.0" mnemonicParsing="false" text="show total price" />
+   </children>
+</AnchorPane>

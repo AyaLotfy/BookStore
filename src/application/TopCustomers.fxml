@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.141">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0">
+         <children>
+            <AnchorPane layoutX="10.0" layoutY="10.0">
+               <children>
+                  <AnchorPane layoutX="40.0" layoutY="40.0" prefHeight="717.0" prefWidth="1080.0">
+                     <children>
+                        <TableView layoutX="3.0" prefHeight="640.0" prefWidth="740.0" AnchorPane.bottomAnchor="77.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="337.0" AnchorPane.topAnchor="0.0">
+                           <columns>
+                              <TableColumn prefWidth="79.0" text="first name" />
+                              <TableColumn prefWidth="82.0" text="last name" />
+                              <TableColumn prefWidth="85.0" text="user name" />
+                              <TableColumn prefWidth="205.0" text="email" />
+                              <TableColumn prefWidth="115.0" text="phone" />
+                              <TableColumn minWidth="0.0" prefWidth="173.0" text="address" />
+                           </columns>
+                        </TableView>
+                        <Button layoutX="477.0" layoutY="662.0" mnemonicParsing="false" text="back" AnchorPane.rightAnchor="552.0" />
+                        <Button layoutX="772.0" layoutY="662.0" mnemonicParsing="false" text="next" AnchorPane.rightAnchor="259.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<!-- <?import java.lang.*?> -->
+<!-- <?import javafx.scene.control.*?> -->
+<!-- <?import javafx.scene.layout.*?> -->
+<!-- <?import javafx.scene.layout.AnchorPane?> -->
+
+<!-- <Pane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TopCustomersController"> -->
+<!--    <children> -->
+<!--       <TableView fx:id="table"> -->
+<!--         <columns> -->
+<!-- <!--           <TableColumn fx:id="deletionColumn" editable="false" prefWidth="75.0" text="Delete" /> --> -->
+<!-- <!--           <TableColumn fx:id="nameColumn" editable="false" prefWidth="75.0" text="userId" /> --> -->
+<!-- <!--             <TableColumn fx:id="allegianceColumn" editable="false" prefWidth="75.0" text="isbn" /> --> -->
+<!-- <!--             <TableColumn fx:id="positionColumn" editable="false" prefWidth="75.0" text="copies" /> --> -->
+<!-- <!--             <TableColumn fx:id="salaryColumn" editable="false" prefWidth="75.0" text="price" /> --> -->
+<!--         </columns> -->
+<!--       </TableView> -->
+<!--    </children> -->
+<!-- </Pane> -->

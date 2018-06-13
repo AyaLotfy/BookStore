@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="687.0" prefWidth="1050.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="687.0" prefWidth="1050.0" stylesheets="@application.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <AnchorPane layoutX="-314.0" layoutY="-258.0" prefHeight="513.0" prefWidth="647.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <MenuBar layoutY="14.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                     <menus>
+                        <Menu mnemonicParsing="false" text="update account" />
+                        <Menu mnemonicParsing="false" text="search" />
+                        <Menu mnemonicParsing="false" text="shopping cart" />
+                        <Menu mnemonicParsing="false" text="check out" />
+                        <Menu mnemonicParsing="false" text="log out" />
+                     </menus>
+                  </MenuBar>
+                  <MenuBar layoutY="46.0" prefHeight="32.0" prefWidth="411.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="add new book" />
+                      <Menu mnemonicParsing="false" text="add publisher" />
+                      <Menu mnemonicParsing="false" text="modify book" />
+                        <Menu mnemonicParsing="false" text="place order" />
+                        <Menu mnemonicParsing="false" text="promote customer" />
+                        <Menu mnemonicParsing="false" text="view sales report" />
+                    </menus>
+                  </MenuBar>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddBookController">
+   <children>
+      <AnchorPane layoutX="10.0" layoutY="9.0" prefHeight="687.0" prefWidth="1050.0">
+         <children>
+            <TextField fx:id="isbn" layoutX="217.0" layoutY="81.0" />
+            <TextField fx:id="Price" layoutX="217.0" layoutY="137.0" />
+            <TextField fx:id="threshold" layoutX="217.0" layoutY="203.0" />
+            <TextField fx:id="title" layoutX="217.0" layoutY="267.0" />
+               <TextField fx:id="author" layoutX="217.0" layoutY="319.0" />
+            <ComboBox fx:id="pub_ID" layoutX="217.0" layoutY="374.0" prefWidth="150.0" />
+            <TextField fx:id="pub_year" layoutX="217.0" layoutY="437.0" />
+            <ComboBox fx:id="cat_ID" layoutX="217.0" layoutY="498.0" prefWidth="150.0" />
+            <TextField fx:id="copies" layoutX="217.0" layoutY="559.0" />
+            
+            <Label layoutX="67.0" layoutY="81.0" text="isbn" />
+            <Label layoutX="67.0" layoutY="142.0" text="price" />
+            <Label layoutX="67.0" layoutY="208.0" text="threshold" />
+            <Label layoutX="67.0" layoutY="272.0" text="title" />
+            <Label layoutX="67.0" layoutY="378.0" text="publisher" />
+<!--             <TextField fx:id="Pub_year" layoutX="217.0" layoutY="437.0" /> -->
+            <Label layoutX="67.0" layoutY="442.0" text="year" />
+            <Label layoutX="55.0" layoutY="502.0" text="category" />
+            <Button layoutX="175.0" layoutY="621.0" mnemonicParsing="false" onAction="#handleButtonAction" text="confirm" />
+            <Button layoutX="595.0" layoutY="574.0" mnemonicParsing="false" onAction="#cancelAction" text="cancel" />
+<!--             <TextField fx:id="copies" layoutX="217.0" layoutY="559.0" /> -->
+            <Label layoutX="67.0" layoutY="564.0" text="no. of copies" />
+<!--             <TextField fx:id="author" layoutX="217.0" layoutY="319.0" /> -->
+            <Label layoutX="67.0" layoutY="324.0" text="author name " />
+<!--             <ComboBox fx:id="cat_ID" layoutX="217.0" layoutY="498.0" prefWidth="150.0" /> -->
+<!--             <ComboBox fx:id="Pub_ID" layoutX="217.0" layoutY="374.0" prefWidth="150.0" /> -->
+     <Button layoutX="175.0" layoutY="621.0" mnemonicParsing="false" onAction="#handleButtonAction" text="confirm" />
+            <Button layoutX="305.0" layoutY="621.0" mnemonicParsing="false" onAction="#cancelAction" text="cancel" />
+            <Button layoutX="445.0" layoutY="374.0" mnemonicParsing="false" onAction="#addNewPublisher" text="Add new Publisher" />
+            
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

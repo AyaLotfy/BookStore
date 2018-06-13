@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="716.0" prefWidth="966.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.fController">
+   <children>
+      <TableView fx:id="table" prefHeight="623.0" prefWidth="821.0">
+        <columns>
+<!--           <TableColumn fx:id="deletionColumn" editable="false" prefWidth="75.0" text="Delete" /> -->
+<!--           <TableColumn fx:id="nameColumn" editable="false" prefWidth="75.0" text="userId" /> -->
+<!--             <TableColumn fx:id="allegianceColumn" editable="false" prefWidth="75.0" text="isbn" /> -->
+<!--             <TableColumn fx:id="positionColumn" editable="false" prefWidth="75.0" text="copies" /> -->
+<!--             <TableColumn fx:id="salaryColumn" editable="false" prefWidth="75.0" text="price" /> -->
+        </columns>
+      </TableView>
+   </children>
+</Pane>
